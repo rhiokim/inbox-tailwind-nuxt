@@ -1,154 +1,159 @@
 <template>
   <div id="main" class="flex">
-    <div id="menu" class="w-64 border-r border-gray-200">
-      <div
-        class="flex items-center justify-between border-b border-gray-100 px-8 py-5"
-      >
-        <div class="flex items-center">
-          <svg
-            class="flex-none w-4 h-4 font-bold text-blue-500"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-            <polyline points="2 17 12 22 22 17"></polyline>
-            <polyline points="2 12 12 17 22 12"></polyline>
-          </svg>
-        </div>
-        <div class="flex items-center">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            class="flex-none w-4 h-4 text-gray-300 hover:text-gray-500"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-          </svg>
-        </div>
-      </div>
-      <div class="flex px-8 py-10">
-        <button
-          class="flex-1 text-center bg-blue-500 hover:bg-blue-700 text-white rounded-sm py-3 px-4 inline-flex items-end"
+    <div id="menu" class="relative w-64 border-r border-gray-200">
+      <div class="h-screen absolute w-64 z-10 bg-white">
+        <div
+          class="flex items-center justify-between border-b border-gray-100 px-8 py-5"
         >
-          <svg
-            class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-500"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+          <div class="flex items-center">
+            <svg
+              class="flex-none w-4 h-4 font-bold text-blue-500"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <div class="flex items-center">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              class="flex-none w-4 h-4 text-gray-300 hover:text-gray-500"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="flex px-8 py-10">
+          <button
+            class="flex-1 text-center bg-blue-500 hover:bg-blue-700 text-white rounded-sm py-3 px-4 inline-flex items-end"
           >
-            <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-            <path
-              d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
-            ></path>
-          </svg>
-          <span>new message</span>
-        </button>
+            <svg
+              class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-500"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
+              <path
+                d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
+              ></path>
+            </svg>
+            <span>new message</span>
+          </button>
+        </div>
+        <div class="px-8">
+          <ul>
+            <li class="py-4">
+              <a href="#" class="flex items-center hover:text-blue-500">
+                <svg
+                  class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-500"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline
+                    points="22 12 16 12 14 15 10 15 8 12 2 12"
+                  ></polyline>
+                  <path
+                    d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
+                  ></path>
+                </svg>
+                <span>Inbox</span>
+              </a>
+            </li>
+            <li class="py-4">
+              <a href="#" class="flex items-center hover:text-blue-500">
+                <svg
+                  class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-500"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  ></polygon>
+                </svg>
+                <span>Marked</span>
+              </a>
+            </li>
+            <li class="py-4">
+              <a href="#" class="flex items-center hover:text-blue-500">
+                <svg
+                  class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-200"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"
+                  ></path>
+                </svg>
+                <span>Draft</span>
+              </a>
+            </li>
+            <li class="py-4">
+              <a href="#" class="flex items-center hover:text-blue-500">
+                <svg
+                  class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-200"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="3 6 5 6 21 6"></polyline>
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  ></path>
+                  <line x1="10" y1="11" x2="10" y2="17"></line>
+                  <line x1="14" y1="11" x2="14" y2="17"></line>
+                </svg>
+                <span>Deleted</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="px-8">
-        <ul>
-          <li class="py-4">
-            <a href="#" class="flex items-center hover:text-blue-500">
-              <svg
-                class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-500"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-                <path
-                  d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
-                ></path>
-              </svg>
-              <span>Inbox</span>
-            </a>
-          </li>
-          <li class="py-4">
-            <a href="#" class="flex items-center hover:text-blue-500">
-              <svg
-                class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-500"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon
-                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-                ></polygon>
-              </svg>
-              <span>Marked</span>
-            </a>
-          </li>
-          <li class="py-4">
-            <a href="#" class="flex items-center hover:text-blue-500">
-              <svg
-                class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-200"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path
-                  d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"
-                ></path>
-              </svg>
-              <span>Draft</span>
-            </a>
-          </li>
-          <li class="py-4">
-            <a href="#" class="flex items-center hover:text-blue-500">
-              <svg
-                class="flex-none w-4 h-4 mr-3 text-gray-300 hover:text-blue-200"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="3 6 5 6 21 6"></polyline>
-                <path
-                  d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
-                ></path>
-                <line x1="10" y1="11" x2="10" y2="17"></line>
-                <line x1="14" y1="11" x2="14" y2="17"></line>
-              </svg>
-              <span>Deleted</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <div class="x-shadow">&nbsp;</div>
     </div>
     <div class="flex-1 flex">
       <div id="list" class="w-100 bg-gray-100 overflow-y-hidden">
@@ -433,7 +438,11 @@ html, body
 #menu
   // box-shadow: 5px 0px 3px -4px gray
   height: 100%
-
+  .x-shadow
+    top: 0
+    left: -3px
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
+    @apply h-screen absolute z-0 ml-64 bg-gray-200
 .active
   @apply bg-white border-white
 .h-20
