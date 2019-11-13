@@ -212,7 +212,30 @@
           </div>
         </div>
         <div class="flex justify-between p-2 border-r border-gray-200">
-          <div class="flex">Newest</div>
+          <div class="flex items-end">
+            <svg
+              class="w-4 h-4 ml-3"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="4" y1="21" x2="4" y2="14"></line>
+              <line x1="4" y1="10" x2="4" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12" y2="3"></line>
+              <line x1="20" y1="21" x2="20" y2="16"></line>
+              <line x1="20" y1="12" x2="20" y2="3"></line>
+              <line x1="1" y1="14" x2="7" y2="14"></line>
+              <line x1="9" y1="8" x2="15" y2="8"></line>
+              <line x1="17" y1="16" x2="23" y2="16"></line>
+            </svg>
+            <span class="ml-1 text-xs">Newest</span>
+          </div>
         </div>
         <div class="overflow-y-auto">
           <ul>
@@ -333,25 +356,90 @@
               </div>
             </li>
             <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
+              <div class="w-10 flex flex-none flex-col justify-between">
+                <div class="flex-1">29</div>
+                <div class="flex-1">
+                  <svg
+                    class="flex-none w-4 h-4 text-gray-500 hover:text-blue-500"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="1"></circle>
+                    <circle cx="19" cy="12" r="1"></circle>
+                    <circle cx="5" cy="12" r="1"></circle>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1 flex justify-between">
+                <div class="flex-1 flex flex-col w-16">
+                  <span class="flex-1 text-xs text-gray-500">Mark Lee</span>
+                  <h3 class="flex-1 font-bold py-1">Never ending story</h3>
+                  <p
+                    class="flex-1 items-end text-xs text-gray-400 truncate ..."
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum, doloribus ullam minima beatae nostrum repellat
+                    officiis quisquam, consequuntur cum iusto cupiditate minus
+                    tempore. Ipsum quaerat ipsa eveniet odio vero amet.
+                  </p>
+                </div>
+                <div class="flex-none flex flex-col w-16 items-end">
+                  <div class="flex-none"></div>
+                  <div class="flex-1 flex items-end text-xs text-gray-400">
+                    3 days ago
+                  </div>
+                </div>
+              </div>
             </li>
             <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
-            </li>
-            <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
-            </li>
-            <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
-            </li>
-            <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
-            </li>
-            <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
-            </li>
-            <li class="flex h-20 p-5 border-b border-r border-gray-200">
-              <div>bbb</div>
+              <div class="w-10 flex flex-none flex-col justify-between">
+                <div class="flex-1">29</div>
+                <div class="flex-1">
+                  <svg
+                    class="flex-none w-4 h-4 text-gray-500 hover:text-blue-500"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="1"></circle>
+                    <circle cx="19" cy="12" r="1"></circle>
+                    <circle cx="5" cy="12" r="1"></circle>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1 flex justify-between">
+                <div class="flex-1 flex flex-col w-16">
+                  <span class="flex-1 text-xs text-gray-500">Jimmy Moon</span>
+                  <h3 class="flex-1 font-bold py-1">
+                    Start tc39 study with Seoul.js
+                  </h3>
+                  <p
+                    class="flex-1 items-end text-xs text-gray-400 truncate ..."
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum, doloribus ullam minima beatae nostrum repellat
+                    officiis quisquam, consequuntur cum iusto cupiditate minus
+                    tempore. Ipsum quaerat ipsa eveniet odio vero amet.
+                  </p>
+                </div>
+                <div class="flex-none flex flex-col w-16 items-end">
+                  <div class="flex-none"></div>
+                  <div class="flex-1 flex items-end text-xs text-gray-400">
+                    12 months ago
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -383,7 +471,7 @@
           <div class="flex"></div>
           <div class="flex">
             <svg
-              class="flex-none w-4 h-4 mr-3 text-gray-500 hover:text-blue-500"
+              class="flex-none w-4 h-4 mr-5 text-gray-500 hover:text-blue-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -423,6 +511,114 @@
         </div>
       </div>
     </div>
+    <portal to="modal">
+      <div
+        class="modal absolute w-full h-full top-0 left-0 flex items-center justify-center z-50"
+      >
+        <div
+          class="modal-overlay absolute w-full h-full bg-black opacity-0 top-0 left-0 cursor-pointer"
+        ></div>
+        <div
+          class="absolute w-2/5 bg-white rounded-sm shadow-lg flex flex-col right-0 bottom-0 mb-10 mr-10 border border-gray-100"
+        >
+          <div class="flex justify-between border-b border-gray-100 px-10 py-4">
+            <div class="flex-none flex">
+              <select
+                class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+              >
+                <option>Type</option>
+                <option>Todo</option>
+                <option>Email</option>
+                <option>Presentation</option>
+                <option>Post</option>
+              </select>
+            </div>
+            <div class="flex items-center">
+              <svg
+                class="w-4 h-4 text-gray-500"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <polyline points="9 21 3 21 3 15"></polyline>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="3" y1="21" x2="10" y2="14"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="flex px-10 pt-4 pt-2">
+            <textarea class="w-full h-32 border border-gray-100"></textarea>
+          </div>
+          <div class="flex justify-between px-10 pt-2 pb-4">
+            <div class="flex-none flex items-center">
+              <svg
+                class="w-4 h-4 mr-3 text-gray-500"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              <svg
+                class="w-4 h-4 mr-3 text-gray-500"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                ></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="12" y1="18" x2="12" y2="12"></line>
+                <line x1="9" y1="15" x2="15" y2="15"></line>
+              </svg>
+              <svg
+                class="w-4 h-4 text-gray-500"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </div>
+            <div class="flex">
+              <button
+                class="flex-1 text-center bg-blue-500 hover:bg-blue-700
+              text-white rounded-sm py-2 px-6 inline-flex items-end"
+              >
+                submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </portal>
+    <portal-target name="modal"></portal-target>
   </div>
 </template>
 
@@ -441,8 +637,10 @@ html, body
   .x-shadow
     top: 0
     left: -3px
-    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
     @apply h-screen absolute z-0 ml-64 bg-gray-200
+.modal
+  transition: opacity 0.25s ease
 .active
   @apply bg-white border-white
 .h-20
