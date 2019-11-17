@@ -4,14 +4,16 @@
     <h1>Today meeting opened!</h1>
     <ul class="my-2 text-xs">
       <li
-        class="inline-block border border-gray-200 bg-gray-100 px-4 py-1 mr-1"
+        class="inline-block bg-blue-100 text-blue-500 border border-blue-200 rounded-sm px-2 py-1 mr-1"
       >
-        <span>work</span>
+        <span class="">work</span>
+        <button class="ml-2">x</button>
       </li>
       <li
-        class="inline-block border border-gray-200 bg-gray-100 px-4 py-1 mr-1"
+        class="inline-block bg-gray-100 text-gray-500 border border-gray-200 rounded-sm px-2 py-1 mr-1"
       >
         <span>work</span>
+        <button class="ml-2">x</button>
       </li>
     </ul>
     <div class="mt-8">
@@ -54,8 +56,18 @@
 
 <script>
 // import Logo from '~/components/Logo.vue'
+// import NewMessage from '~/components/dialogs/NewMessage.vue'
 
-export default {}
+export default {
+  components: {
+    // NewMessage
+  },
+  data() {
+    return {
+      // showNewMessageDialog: false
+    }
+  }
+}
 </script>
 
 <style lang="sass" scoped>

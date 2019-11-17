@@ -23,4 +23,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Resources
 
+* Design - https://dribbble.com/shots/4074232-Inbox-Web-App#shot-description
 * https://feathericons.com/
