@@ -1,6 +1,6 @@
 # inbox-tailwind-nuxt
 
-> Inbox App with tailwind and nuxt
+> Inbox & Task Manager App with tailwind and nuxt
 
 ## Build Setup
 
@@ -20,6 +20,14 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Screenshots
+
+![](./docs/inbox.png)
+[design resource](https://dribbble.com/shots/4074232-Inbox-Web-App)
+
+![](./docs/task.png)
+[design resource](https://dribbble.com/shots/7174157-GipsyBot-Concepts)
 
 ## Resources
 
