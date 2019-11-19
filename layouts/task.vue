@@ -3,21 +3,21 @@
     <div
       class="w-24 flex flex-col min-h-screen h-screen flex border-r border-gray-200 justify-between items-center"
     >
-      <div class="flex-1 flex flex-col items-center">
-        <div class="relative">
+      <div class="w-full flex-1 flex-col items-center">
+        <div class="my-8 relative ml-auto mr-auto text-center">
           <img
             src="https://avatars0.githubusercontent.com/u/28773357?s=200&v=4"
             alt="lovely avatar"
-            class="object-cover object-center w-16 h-16 mt-4"
+            class="inline w-16 h-16"
           />
           <div
             class="absolute w-4 h-4 top-0 right-0 rounded-full border-2 border-white bg-red-600"
-            style="margin-top: 16px; margin-right: -4px;"
+            style="margin-right: 12px;"
           ></div>
         </div>
-        <div>
+        <div class="relative flex h-16 items-center">
           <svg
-            class="w-10 h-10 mt-8 text-gray-300 hover:text-gray-500"
+            class="flex-1 w-8 h-8 my-5 text-gray-300 cursor-pointer"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -33,9 +33,11 @@
             ></path>
           </svg>
         </div>
-        <div class="relative">
+        <div
+          class="relative flex h-16 items-center border-l-4 border-purple-600"
+        >
           <svg
-            class="w-10 h-10 mt-8 text-gray-300 hover:text-gray-500"
+            class="flex-1 w-8 h-8 my-5 text-purple-600 cursor-pointer"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -52,7 +54,7 @@
           </svg>
           <div
             class="absolute w-4 h-4 top-0 right-0 rounded-full border-2 border-white bg-red-600"
-            style="margin-top: 24px; margin-right: -8px;"
+            style="margin-top: 10px; margin-right: 16px;"
           ></div>
         </div>
       </div>
@@ -60,7 +62,7 @@
         <div class="flex-1"></div>
         <div>
           <svg
-            class="w-8 h-8 mb-5 text-gray-300 hover:text-gray-500"
+            class="w-6 h-6 mb-8 text-gray-300 hover:text-purple-600 cursor-pointer"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -76,7 +78,7 @@
         </div>
         <div>
           <svg
-            class="w-8 h-8 mb-5 text-gray-300 hover:text-gray-500"
+            class="w-6 h-6 mb-8 text-gray-300 hover:text-purple-600 cursor-pointer"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -111,7 +113,7 @@
       class="w-32 min-h-screen h-screen flex flex-col border-r border-gray-200 bg-gray-100 overflow-y-auto"
     >
       <div>
-        <div class="relative mx-6 my-5">
+        <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
             style="margin-top: -5px; margin-left: -5px;"
@@ -133,7 +135,7 @@
           </div>
           <span class="block text-center font-bold pt-1">Rhio</span>
         </div>
-        <div class="relative mx-6 my-5">
+        <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
             style="margin-top: -5px; margin-left: -5px;"
@@ -155,7 +157,7 @@
           </div>
           <span class="block text-center font-bold pt-1">Mayke</span>
         </div>
-        <div class="relative mx-6 my-5">
+        <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
             style="margin-top: -5px; margin-left: -5px;"
@@ -177,7 +179,7 @@
           </div>
           <span class="block text-center font-bold pt-1">Torsten</span>
         </div>
-        <div class="relative mx-6 my-5">
+        <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
             style="margin-top: -5px; margin-left: -5px;"
@@ -199,7 +201,7 @@
           </div>
           <span class="block text-center font-bold pt-1">Wilhelm</span>
         </div>
-        <div class="relative mx-6 my-5">
+        <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
             style="margin-top: -5px; margin-left: -5px;"
@@ -221,7 +223,7 @@
           </div>
           <span class="block text-center font-bold pt-1">Longo</span>
         </div>
-        <div class="relative mx-6 my-5">
+        <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
             style="margin-top: -5px; margin-left: -5px;"
