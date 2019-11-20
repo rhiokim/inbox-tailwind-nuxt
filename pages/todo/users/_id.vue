@@ -3,7 +3,7 @@
     <div class="flex-1 text-center">
       <img
         class="inline rounded-lg w-56 h-56"
-        src="https://avatars2.githubusercontent.com/u/145777?s=400&u=2a1095688741c9edd8b8d96c882b5a42a1fbfff3&v=4"
+        src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png"
       />
       <h1 class="text-5xl py-10">Tanya Zahra</h1>
       <span class="block py-2 text-gray-700"
