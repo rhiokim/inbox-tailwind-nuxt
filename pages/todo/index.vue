@@ -30,7 +30,7 @@
       <li class="flex py-2">
         <label class="flex-1 flex">
           <div class="checkbox-wrap shadow mr-4">
-            <input type="checkbox" class="hidden" checked />
+            <input type="checkbox" class="hidden" />
             <svg
               class="hidden w-4 h-4 text-white pointer-events-none"
               width="24"

@@ -116,7 +116,7 @@
         <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
-            style="margin-top: -5px; margin-left: -5px;"
+            style="margin-top: -5px; margin-left: -10px;"
           >
             10
           </div>
@@ -138,7 +138,7 @@
         <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
-            style="margin-top: -5px; margin-left: -5px;"
+            style="margin-top: -5px; margin-left: -10px;"
           >
             8
           </div>
@@ -160,7 +160,7 @@
         <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
-            style="margin-top: -5px; margin-left: -5px;"
+            style="margin-top: -5px; margin-left: -10px;"
           >
             2
           </div>
@@ -182,7 +182,7 @@
         <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
-            style="margin-top: -5px; margin-left: -5px;"
+            style="margin-top: -5px; margin-left: -10px;"
           >
             9
           </div>
@@ -204,7 +204,7 @@
         <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
-            style="margin-top: -5px; margin-left: -5px;"
+            style="margin-top: -5px; margin-left: -10px;"
           >
             3
           </div>
@@ -226,7 +226,36 @@
         <div class="relative mx-6 my-8">
           <div
             class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
-            style="margin-top: -5px; margin-left: -5px;"
+            style="margin-top: -5px; margin-left: -10px;"
+          >
+            ?
+          </div>
+          <div
+            class="hidden absolute w-6 h-6 right-0 rounded-full border-4 border-white bg-red-600"
+            style="margin-top: -2px; margin-right: -2px;"
+          ></div>
+          <div
+            class="group w-full rounded-full overflow-hidden shadow-inner text-center table cursor-pointer"
+          >
+            <svg
+              class="w-full h-full bg-gray-600 text-gray-400"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <span class="block text-center font-bold pt-1">Naomi</span>
+        </div>
+        <div class="relative mx-6 my-8">
+          <div
+            class="absolute w-8 h-8 font-bold text-sm text-center rounded-full border-4 border-white bg-gray-400 text-white"
+            style="margin-top: -5px; margin-left: -10px;"
           >
             8
           </div>
