@@ -19,7 +19,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'
+          'https://fonts.googleapis.com/css?family=Chivo|Varela+Round|Work+Sans|Noto+Sans+KR&display=swap'
       }
     ]
   },
