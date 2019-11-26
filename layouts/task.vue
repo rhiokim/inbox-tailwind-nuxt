@@ -300,108 +300,36 @@
         </div>
       </div>
     </div>
-    <div
-      class="relative flex-1 flex flex-col bg-gray-100 min-h-screen h-screen overflow-y-auto"
+    <nuxt />
+    <button
+      class="absolute bottom-0 right-0 bg-purple-600 p-4 m-8 select-none text-white rounded-full"
     >
-      <div
-        id="contents"
-        class="fixed p-10 h-20 flex-1 flex items-center justify-between"
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       >
-        <div class="relative flex items-end">
-          <div
-            class="flex-1 flex h-12 w-48 text-center items-center rounded-full bg-gray-200"
-          >
-            <svg
-              class="w-4 h-4 ml-5 mr-2 text-gray-300 hover:text-gray-500"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
-              ></path>
-            </svg>
-            <span class="font-bold text-gray-500">Show the archive</span>
-          </div>
-          <div
-            class="absolute w-6 h-6 top-0 right-0 rounded-full border-4 border-white bg-red-600"
-            style="margin-top: -2px; margin-right: 10px;"
-          ></div>
-        </div>
-        <div class="flex-1 flex">
-          <div class="flex-1"></div>
-          <div class="">
-            <svg
-              class="w-6 h-6 ml-8 text-gray-300 hover:text-gray-500"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-          </div>
-          <div class="">
-            <svg
-              class="w-6 h-6 ml-8 text-gray-300 hover:text-gray-500"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-              ></path>
-              <line x1="7" y1="7" x2="7.01" y2="7"></line>
-            </svg>
-          </div>
-          <div class="">
-            <svg
-              class="w-6 h-6 ml-8 text-gray-300 hover:text-gray-500"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </div>
-        </div>
-      </div>
-      <div class="flex-1 flex m-10">
-        <nuxt />
-      </div>
-    </div>
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+      </svg>
+    </button>
+
+    <portal-target name="modal"></portal-target>
   </div>
 </template>
 
 <style lang="sass">
-tml, body
+html, body
   font-family: 'Work Sans', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-#contents
-  width: calc(100vw - 14rem)
-  background-image: linear-gradient(to top, hsla(220, 43%, 97%, 0), hsla(220, 43%, 97%, 1))
+.modal
+  transition: opacity 0.25s ease
 #friends > div:nth-child(1)
   @apply pt-8
 .active
